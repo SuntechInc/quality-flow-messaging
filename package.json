@@ -2,13 +2,13 @@
   "name": "@qualityflow/messaging",
   "version": "1.0.0",
   "description": "Biblioteca de mensageria Kafka para NestJS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/libs/quality-flow-messaging/index.js",
+  "types": "dist/libs/quality-flow-messaging/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "types": "./dist/libs/quality-flow-messaging/index.d.ts",
+      "import": "./dist/libs/quality-flow-messaging/index.js",
+      "require": "./dist/libs/quality-flow-messaging/index.js"
     }
   },
   "files": [
