@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/nest-cli",
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "libs/quality-flow-messaging/src",
+    "projects": {
+      "quality-flow-messaging": {
+        "type": "library",
+        "root": "libs/quality-flow-messaging",
+        "entryFile": "index",
+        "sourceRoot": "libs/quality-flow-messaging/src",
+        "compilerOptions": {
+          "tsConfigPath": "libs/quality-flow-messaging/tsconfig.lib.json"
+        }
+      }
+    }
+  }
+  
