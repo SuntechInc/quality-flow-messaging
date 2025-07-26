@@ -16,6 +16,8 @@
   ],
   "scripts": {
     "build": "nest build quality-flow-messaging",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build",
     "test": "jest"
   },
   "dependencies": {
